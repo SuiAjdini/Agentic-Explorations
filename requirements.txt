@@ -1,0 +1,16 @@
+# requirements file
+# note which revision of python, for example 3.9.6
+# in this file, insert all the pip install needs, include revision
+
+google-generativeai
+llama-index
+llama-index-core
+llama-index-utils-workflow
+llama-index-llms-gemini
+llama-parse
+llama-index-embeddings-gemini
+llama-index-embeddings-huggingface
+llama-index-readers-whisper
+gradio
+pydantic
+PyMuPDF
