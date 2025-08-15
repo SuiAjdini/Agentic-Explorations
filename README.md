@@ -66,8 +66,8 @@ pip install -r requirements.txt
 ```
 
 ### 4. Run the Script
-With your virtual environment activated and dependencies installed, run the main script from your terminal:
+With your virtual environment activated and dependencies installed, run the app script from your terminal and explore the appplication on http://127.0.0.1:7860.
 
 ```bash
-python main.py
+python app.py
 ```
