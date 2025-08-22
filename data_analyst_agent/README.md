@@ -25,9 +25,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the Script
+### 3. Run the Script
 With your virtual environment activated and dependencies installed, run the app script from your terminal and explore the appplication on http://127.0.0.1:7860.
 
 ```bash
 python app.py
 ```
+
+### 4. Upload a CSV and explore the data with your agent
+Ask questions to analyze, summarize, and visualize your data in plain English
