@@ -1,0 +1,7 @@
+python-dotenv
+gradio
+pandas
+matplotlib
+llama-index
+llama-index-llms-gemini
+llama-index-experimental
