@@ -1,6 +1,7 @@
 # Data Analyst Agent with Gemini & LlamaIndex 📄🤖
 
 📈 Data Analyst Agent
+
 This Gradio web app uses Google's Gemini AI to let you chat with your CSV files. Upload a file, then ask questions to analyze, summarize, and visualize your data in plain English.
 
 ## 🚀 How to Run the Project
