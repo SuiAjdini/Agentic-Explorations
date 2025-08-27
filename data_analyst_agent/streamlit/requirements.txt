@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+llama-index
+llama-index-llms-gemini
+llama-index-experimental
+google-generativeai
