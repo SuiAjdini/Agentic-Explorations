@@ -1,0 +1,8 @@
+streamlit 
+agno 
+google-genai 
+duckdb 
+pandas 
+matplotlib 
+pyarrow 
+python-dotenv
