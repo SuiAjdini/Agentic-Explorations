@@ -2,6 +2,7 @@
 A collection of experimental AI agent projects and prototypes. This repository documents my journey in testing the capabilities and limitations of autonomous agents.
 
 ### AI Agents
-
-*   [📊 AI Data Analysis Agent](data_analyst_agent/)
+*   [📊 Multi-Agent Data Analysis with Streamlit](data_analyst_agent/streamlit/)
+*   [📊 AI Data Analysis Agent with Streamlit](data_analyst_agent/streamlit/)
+*   [📊 AI Data Analysis Agent with Gradio](data_analyst_agent/gradio/)
 *   [📑 AI CV Parser Agent](cv_parser_agent/)
