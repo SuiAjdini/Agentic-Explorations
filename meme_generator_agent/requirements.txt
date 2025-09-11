@@ -1,0 +1,4 @@
+streamlit>=1.32
+requests>=2.31
+langchain-google-genai>=1.0.0
+google-generativeai>=0.8.0
