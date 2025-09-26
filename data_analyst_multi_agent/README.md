@@ -37,7 +37,7 @@ Create a .env file.
 ### 4. Run the App:
 
 ```bash
-streamlit run your_script_name.py
+streamlit run app.py
 ```
 
 
