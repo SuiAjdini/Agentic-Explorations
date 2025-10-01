@@ -1,0 +1,7 @@
+streamlit
+pydantic>=2
+python-dateutil
+google-generativeai
+google-auth
+google-auth-oauthlib
+google-api-python-client
