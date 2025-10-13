@@ -8,3 +8,4 @@ A collection of experimental AI agent projects and prototypes. This repository d
 *   [📊 AI Data Analysis Agent with Gradio](data_analyst_agent/gradio/)
 *   [📑 AI CV Parser Agent](cv_parser_agent/)
 *   [📬 AI Email and meeting Agent](email_and_meeting_agent/)
+*   [🛍️ Smart Shopper AI Agent](smart_shopper_agent/)
