@@ -1,0 +1,5 @@
+streamlit>=1.38
+requests>=2.32
+python-dateutil>=2.9
+pydantic>=2.9
+google-generativeai>=0.8

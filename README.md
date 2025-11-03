@@ -9,3 +9,4 @@ A collection of experimental AI agent projects and prototypes. This repository d
 *   [📑 AI CV Parser Agent](cv_parser_agent/)
 *   [📬 AI Email and meeting Agent](email_and_meeting_agent/)
 *   [🛍️ Smart Shopper AI Agent](smart_shopper_agent/)
+*   [🗞️ Daily AI News Digest Agent](daily_ai_news_agent/)
