@@ -61,7 +61,7 @@ def render_sources(sources: Dict[str, List[TavilyResult]]):
                 st.markdown(f"{i}. [{r.title}]({r.url}) — {r.published_date or ''}")
 
 st.set_page_config(page_title="Daily AI News Digest", page_icon="🗞️", layout="wide")
-st.title("🗞️ Daily AI News Digest — Gemini + Tavily")
+st.title("🗞️ Daily AI News Digest")
 
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY") or st.secrets.get("TAVILY_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
