@@ -5,3 +5,5 @@ langchain_community
 tavily-python
 python-dotenv
 langchainhub
+browser-use
+langchain-classic>=1.0.0
