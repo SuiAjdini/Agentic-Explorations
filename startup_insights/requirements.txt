@@ -1,0 +1,5 @@
+streamlit
+firecrawl-py
+agno
+google-genai
+python-dotenv
