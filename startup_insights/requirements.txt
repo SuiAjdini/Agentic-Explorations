@@ -3,3 +3,5 @@ firecrawl-py
 agno
 google-genai
 python-dotenv
+requests
+beautifulsoup4
