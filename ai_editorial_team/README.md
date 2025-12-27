@@ -1,6 +1,7 @@
-## 🥸 Gemini Meme Generator
+## 🔁 AI editorial team
 
-Streamlit app that uses Google Gemini to pick a meme template and write captions, then renders via the Imgflip API
+A production-style LangGraph agent that demonstrates real-time looping, validation, and human-in-the-loop control for resilient AI workflows.
+
 ## 🚀 How to Run the Project
 
 Follow these steps to get the application running.
