@@ -12,3 +12,4 @@ A collection of experimental AI agent projects and prototypes. This repository d
 *   [🗞️ Daily AI News Digest Agent](daily_ai_news_agent/)
 *   [🧠 Startup Insight Agent](startup_insights_agent/)
 *   [🔁 AI editorial team](ai_editorial_team/)
+*   [🤖🔗 MCP agent demo](mcp_agent_demo/)   

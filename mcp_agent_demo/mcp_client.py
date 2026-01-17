@@ -59,7 +59,7 @@ class McpConnection:
     async def call_tool(self, tool_name: str, tool_args: Dict[str, Any]) -> str:
         assert self.session is not None
         result = await self.session.call_tool(tool_name, tool_args)
-        # Many MCP tools return "content" blocks; keep it simple for the demo:
+        # Many MCP tools return "content" blocks;
         return "\n".join(block.text for block in result.content if getattr(block, "text", None))
 
     async def close(self) -> None:

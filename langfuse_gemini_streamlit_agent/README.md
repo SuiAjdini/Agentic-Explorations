@@ -1,5 +1,6 @@
-## 🤖🔗 MCP agent demo
-A simple AI agent interface enabling Google Gemini to reason and interact with local resources (like a notes directory) using the Model Context Protocol (MCP). Built with Streamlit for a clean, interactive UI.
+## 🔁 AI editorial team
+
+A production-style LangGraph agent that demonstrates real-time looping, validation, and human-in-the-loop control for resilient AI workflows.
 
 ## 🚀 How to Run the Project
 

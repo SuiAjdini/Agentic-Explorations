@@ -1,0 +1,5 @@
+streamlit>=1.32.0
+google-genai>=1.0.0
+langfuse>=2.0.0
+openinference-instrumentation-google-genai>=0.1.0
+python-dotenv>=1.0.0
