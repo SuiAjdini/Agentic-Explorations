@@ -1,6 +1,6 @@
-## 🔁 AI editorial team
+## 🔁 Langfuse DEMO
 
-A production-style LangGraph agent that demonstrates real-time looping, validation, and human-in-the-loop control for resilient AI workflows.
+A simple agent that demonstrates monitoring through Langfuse.
 
 ## 🚀 How to Run the Project
 

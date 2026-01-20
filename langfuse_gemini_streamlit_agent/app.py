@@ -150,13 +150,6 @@ def run_agent_turn(user_text: str) -> str:
 st.set_page_config(page_title="Gemini Agent + Langfuse Demo", page_icon="🧠")
 st.title("🧠 Simple Gemini Agent — traced in Langfuse")
 
-with st.expander("Setup checklist", expanded=False):
-    st.markdown(
-        "- Set `GEMINI_API_KEY` and `LANGFUSE_*` env vars\n"
-        "- Run the app and ask a math question (e.g. `12*7 + 3`)\n"
-        "- Open Langfuse → Traces to see the agent steps + Gemini calls"
-    )
-
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -171,11 +164,13 @@ if user_text:
     with st.chat_message("user"):
         st.markdown(user_text)
 
-    # Attach consistent trace attributes (user/session) for this turn
+    # Attach consistent trace attributes
     session_id = st.session_state.get("session_id")
     if not session_id:
         session_id = f"streamlit-{int(time.time())}"
         st.session_state.session_id = session_id
+
+    trace_url = None 
 
     with propagate_attributes(
         user_id="linkedin-demo",
@@ -185,11 +180,19 @@ if user_text:
         version="0.1.0",
     ):
         answer = run_agent_turn(user_text)
-        # Store turn-level input/output on the current trace
+        
+        # Update trace with input/output
         langfuse.update_current_trace(input=user_text, output=answer)
+        
+        trace_url = langfuse.get_trace_url()
 
+    # Display the answer
     st.session_state.messages.append({"role": "assistant", "content": answer})
     with st.chat_message("assistant"):
         st.markdown(answer)
+        
+        
+        if trace_url:
+            st.caption(f"🔍 [View Trace in Langfuse]({trace_url})")
 
     langfuse.flush()
